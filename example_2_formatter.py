@@ -21,6 +21,3 @@ y = x^y
 print(f'{y} yyyy    ')
 x = x^y
 print(f'{x} X {y} Y')
-
-
-input("djnd") = x
