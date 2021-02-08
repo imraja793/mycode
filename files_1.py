@@ -1,5 +1,9 @@
 from sys import argv
 
 script, filename = argv
-
-print(script, filename)
+txt = open(filename)
+print(script, filename, "dikdhdihdihdiddhi")
+b = input("new file name >")
+txt = open(b)
+print(txt.read())
+txt.close()
