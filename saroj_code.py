@@ -8,5 +8,6 @@ def wish(name):
         sleep(5)
 
         print(name)
+        break
 
 wish('Smith')

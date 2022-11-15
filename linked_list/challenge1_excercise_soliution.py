@@ -1,8 +1,7 @@
 
 def list_to_string(input_list: list) -> str:
     string = str()
-    for i in input_list:
-        string += str(i)
+    string = "".join((str(i) for i in input_list))
     return string
 
 
@@ -23,4 +22,5 @@ def add_one(input_list: list) -> list:
 
 a = [9,9,9]
 test = add_one(a)
+
 print(test)

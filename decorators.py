@@ -1,4 +1,5 @@
 def make_new(obj):
+    print(obj)
     def make_inner_new():
         print("here is the decorator function")
         obj()
@@ -9,8 +10,8 @@ def decorate():
     print("decorate me")
 
 
-# a = make_new(decorate)
-# a()
+a = make_new(decorate)
+a()
 
 @make_new
 def check_decorate():

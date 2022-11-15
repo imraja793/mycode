@@ -14,15 +14,18 @@ class ParentClass(object):
     def override_class(self):
         print("parent class override_class def is executed")
 
+
 class ChildClass(ParentClass):
     def __init__(self):
         pass
+
     def override_class(self):
         print("Child class override is executed")
 
     def override_test(self):
         self.override_class()
         super(ChildClass, self).override_class()
+
 
 parent_call = ParentClass()
 child_call = ChildClass()

@@ -7,6 +7,10 @@ def hamming_distance(str1, str2):
        str1(string),str2(string): Strings to be used for finding the hamming distance
     Returns:
        int: Hamming Distance
+
+       ]
+    Definition. The Hamming distance between two equal-length strings of symbols is the
+    number of positions at which the corresponding symbols are different.
     """
 
     if len(str1) != len(str2):

@@ -18,6 +18,7 @@ def rev_sting(string):
     while position >= 0:
         reversed_str += string[position]
         position -= 1
+    print(reversed_str)
     return reversed_str
 
 
@@ -29,6 +30,8 @@ def flip_words(sentence):
     while len(split_sentence) - 1 >= length_split:
         reversing_list.append(rev_sting(split_sentence[length_split]))
         length_split += 1
-    print(" ".join(reversing_list))
+    print(" ".join(reversing_list), "djndjdnjdd")
 
 flip_words("is it done")
+
+rev_sting("djndj")

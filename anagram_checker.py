@@ -16,5 +16,5 @@ def anagram_checker(str1, str2):
 
 
 anagram_checker('Slot machines', 'Cash lost in me')
-anagram_checker("raja", "ajar")
+anagram_checker("raja", "raaj")
 

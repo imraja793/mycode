@@ -31,3 +31,4 @@ class Books(models.Model):
     Book_name = models.CharField(max_length=50)
     book_author = models.CharField(max_length=50)
     book_description = models.CharField(max_length=300)
+
